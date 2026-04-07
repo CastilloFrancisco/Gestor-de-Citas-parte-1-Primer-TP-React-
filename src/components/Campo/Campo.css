@@ -1,5 +1,5 @@
-.form input[type="date"],
-.form input[type="time"] {
+input[type="date"],
+input[type="time"] {
   height: 38px;
   padding: 6px 10px;
   background-color: #fff;
@@ -7,4 +7,13 @@
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box;
+}
+textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  width: 457px;
+  height: 164px;
 }

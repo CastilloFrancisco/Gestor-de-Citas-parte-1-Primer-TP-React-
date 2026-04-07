@@ -1,19 +1,12 @@
 .titulo {
-  color: white;
-  font-family: 'Staatliches', cursive, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin: 0 0 1rem;
+  width: 100%;
 }
-
 
 h1 {
   color: white;
   padding: 3rem 0;
   text-align: center;
-
   text-transform: uppercase;
-
   font-family: 'Staatliches', cursive;
   letter-spacing: 1px;
 }

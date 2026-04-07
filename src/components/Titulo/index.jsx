@@ -1,7 +1,9 @@
-import './Titulo.css'
+import "./Titulo.css";
 
-export default function Titulo({ text }) {
-
-  return <h1>{text}</h1>
-}
+export default function Titulo({ t }) {
+  return (
+    <div className="titulo">
+      <h1>{t}</h1>
+    </div>)
+};
 

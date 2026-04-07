@@ -1,30 +1,24 @@
 .cita {
   padding: 2rem;
-  background: rgb(255, 255, 255);
-  color: rgb(66, 50, 50);
+  background: white;
   margin-bottom: 20px;
-  border-radius: 10px;
 }
 
 .cita p {
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: .8rem;
 }
 
-.cita span {
+.cita p span {
   font-weight: normal;
 }
 
-.eliminar {
-  background-color: #dfd5da;
-  color: white;
-  margin-top: 1rem;
-  width: 100%;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
+.cita:first-of-type {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
-.eliminar:hover {
-  background-color: #a0004a;
-} 
+.cita:last-of-type {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
