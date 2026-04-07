@@ -1,7 +1,7 @@
 import './Titulo.css'
 
-export default function Titulo({ text, level = 'h1' }) {
-  const Tag = level
+export default function Titulo({ text }) {
 
-  return <Tag className={`titulo titulo-${level}`}>{text}</Tag>
+  return <h1>{text}</h1>
 }
+

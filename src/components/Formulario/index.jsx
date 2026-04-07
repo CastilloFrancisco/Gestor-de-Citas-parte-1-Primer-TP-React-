@@ -6,6 +6,11 @@ import './Formulario.css'
 export default function Formulario() {
   return (
     <section className="formulario">
+      
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"></link>
+      <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet"></link>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"></link>
       <Titulo text="Crear mi Cita" level="h2" />
 
       <form className="formulario-contenido" onSubmit={(event) => event.preventDefault()}>

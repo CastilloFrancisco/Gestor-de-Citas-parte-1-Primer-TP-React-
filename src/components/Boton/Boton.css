@@ -33,3 +33,11 @@
 .boton-eliminar:hover {
   background-color: #a40047;
 }
+
+      .button.eliminar,
+      .button.eliminar:hover {
+        background-color: #c10059;
+        color: white;
+        margin-top: 2rem;
+      }
+
