@@ -1,18 +1,26 @@
-.formulario {
-  padding: 2rem;
-  background: white;
-  border-bottom: 1px solid #e1e1e1;
-  color: black;
-  border-radius: 12px;
+label {
+  color: rgb(255, 255, 255);
+  display: block;
+  margin-top: 1rem;
 }
 
-.formulario-contenido {
-  display: flex;
-  flex-direction: column;
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
 }
 
-@media (max-width: 900px) {
-  .formulario {
-    padding: 1.5rem;
-  }
+button {
+  background-color: #1db3c7;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0097a7;
 }

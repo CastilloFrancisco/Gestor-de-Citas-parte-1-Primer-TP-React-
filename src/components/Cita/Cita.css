@@ -1,27 +1,30 @@
 .cita {
-        padding: 2rem;
-        background: white;
-        border-bottom: 1px solid #e1e1e1;
-        color: black;
-        margin-bottom: 20px;
-      }
+  padding: 2rem;
+  background: rgb(255, 255, 255);
+  color: rgb(66, 50, 50);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
 
-      .cita p {
-        font-weight: bold;
-        margin-bottom: .8rem;
-      }
+.cita p {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
 
-      .cita p span {
-        font-weight: normal;
+.cita span {
+  font-weight: normal;
+}
 
-      }
+.eliminar {
+  background-color: #dfd5da;
+  color: white;
+  margin-top: 1rem;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
 
-      .cita:first-of-type {
-        border-top-left-radius: 1rem;
-        border-top-right-radius: 1rem;
-      }
-
-      .cita:last-of-type {
-        border-bottom-left-radius: 1rem;
-        border-bottom-right-radius: 1rem;
-      }
+.eliminar:hover {
+  background-color: #a0004a;
+} 
