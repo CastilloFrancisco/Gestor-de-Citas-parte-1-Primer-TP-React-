@@ -1,0 +1,35 @@
+.form-field {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.form-field label {
+  color: white;
+  font-weight: 600;
+}
+
+.form-field input,
+.form-textarea {
+  height: 38px;
+  padding: 0.65rem 0.9rem;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #111;
+  font-size: 0.95rem;
+}
+
+.form-textarea {
+  min-height: 100px;
+  resize: vertical;
+  line-height: 1.4;
+}
+
+.form-field input:focus,
+.form-textarea:focus {
+  outline: 2px solid #8c30a3;
+}

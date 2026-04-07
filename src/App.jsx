@@ -1,9 +1,10 @@
 import { useState } from 'react'
-
-import Cita from './Cita'
+import Titulo from './components/Titulo'
+import Formulario from './components/Formulario'
+import ListaCitas from './components/ListaCitas'
+import './App.css'
 
 function App() {
-
   const [citas, setCitas] = useState([
     {
       id: 1,
@@ -15,16 +16,25 @@ function App() {
     }
   ])
 
-  return (
-    <>
-      <h1><Cita/></h1>
-    </>
-  )
-}
+  function agregarCita(cita) {
+    cita.id = Date.now()
+    setCitas([...citas, cita])
+  }
 
-function esconderCita(){
+  function eliminarCita(id) {
     const nuevasCitas = citas.filter(cita => cita.id !== id)
-  setCitas(nuevasCitas)
+    setCitas(nuevasCitas)
+  }
+
+  return (
+    <main className="app">
+      <Titulo text="ADMINISTRADOR DE PACIENTES" level="h1" />
+      <div className="app-grid">
+        <Formulario agregarCita={agregarCita} />
+        <ListaCitas citas={citas} esconderCCita={eliminarCita} />
+      </div>
+    </main>
+  )
 }
 
 export default App

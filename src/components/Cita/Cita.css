@@ -1,0 +1,30 @@
+.cita {
+  padding: 2rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e1e1e1;
+  color: black;
+  border-radius: 12px;
+}
+
+.cita p {
+  font-weight: bold;
+  margin: 0 0 0.8rem;
+}
+
+.cita p span {
+  font-weight: normal;
+}
+
+.cita .boton-eliminar {
+  margin-top: 1rem;
+}
+
+.cita:first-of-type {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.cita:last-of-type {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}

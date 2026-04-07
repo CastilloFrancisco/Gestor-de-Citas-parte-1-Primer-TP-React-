@@ -1,0 +1,17 @@
+.lista-citas {
+  padding: 2rem;
+  background: white;
+  border-bottom: 1px solid #e1e1e1;
+  color: black;
+  border-radius: 12px;
+}
+
+.lista-citas .cita + .cita {
+  margin-top: 1rem;
+}
+
+@media (max-width: 900px) {
+  .lista-citas {
+    padding: 1.5rem;
+  }
+}
