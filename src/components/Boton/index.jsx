@@ -1,10 +1,15 @@
-import './Boton.css'
+import './Boton.css';
 
-export default function BotonEliminar() {
+export default function Boton({ onClick }) {
   return (
-    <button  className="button eliminar u-full-width">
+    <button 
+      className="button eliminar u-full-width"
+      onClick={() => {
+        console.log("CLICK");
+        onClick();
+      }}
+    >
       Eliminar ×
     </button>
   );
 }
-

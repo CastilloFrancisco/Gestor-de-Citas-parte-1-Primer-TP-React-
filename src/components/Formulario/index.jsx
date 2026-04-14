@@ -5,7 +5,7 @@ import './Formulario.css'
 export default function Formulario() {
   return (
     <>
-      <Subtitulo text='Crear mi Cita'></Subtitulo>
+      <Subtitulo text='Crear mi Cita' num=''></Subtitulo>
       <form>
         <Campo label="Nombre Mascota" type="text" name="mascota" placeholder="Nombre Mascota" />
         <Campo label="Nombre Dueño" type="text" name="propietario" placeholder="Nombre dueño de la mascota" />

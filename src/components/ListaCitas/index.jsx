@@ -27,14 +27,26 @@ export default function ListaCitas() {
       sintomas: "No está comiendo"
     }
   ];
+
+
+  const eliminarCita = (index) => {
+    const nuevasCitas = citas.filter((_, i) => i !== index);
+    setCitas(nuevasCitas);
+  };
+
   return (
     <>
-     <Subtitulo text={'Administra tus citas'}></Subtitulo>
+      <Subtitulo text={'Administra tus citas'} num={`(${citas.length})`} />
 
       {citas.map((cita, index) => (
-        <Cita key={index} {...cita} />
+        <Cita 
+          key={index} 
+          {...cita} 
+          onEliminar={() => eliminarCita(index)}
+        />
       ))}
     </>
   );
-
 }
+  
+

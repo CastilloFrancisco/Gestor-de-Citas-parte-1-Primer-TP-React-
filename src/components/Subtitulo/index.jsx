@@ -1,7 +1,7 @@
 import './Subtitulo.css'
 
-export default function Subtitulo({ text }) {
+export default function Subtitulo({ text, num }) {
 
-  return <h2>{text}</h2>
+  return <h2>{text + " " + num}</h2>
 }
 
