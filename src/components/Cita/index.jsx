@@ -1,7 +1,7 @@
 import "./Cita.css";
 import Boton from "../Boton";
 
-export default function Cita ({ mascota, dueño, fecha, hora, sintomas, onEliminar }) {
+export default function Cita ({ mascota, dueño, fecha, hora, sintomas, Eliminar }) {
   return (
     <div className="cita">
       <p>Mascota: <span>{mascota}</span></p>
@@ -10,7 +10,7 @@ export default function Cita ({ mascota, dueño, fecha, hora, sintomas, onElimin
       <p>Hora: <span>{hora}</span></p>
       <p>Síntomas: <span>{sintomas}</span></p>
 
-      <Boton onClick={onEliminar}/>
+      <Boton onClick={Eliminar}/>
 
     </div>
   );
